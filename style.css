@@ -1,0 +1,24 @@
+*{margin:0px;
+padding:0px;
+box-sizing: border-box;
+font-family: sans-serif}
+
+
+/*Header*/
+
+header{height:80px ;
+background-color: rgb(255, 123, 22);
+display: flex;
+justify-content: space-around;
+align-items: center;
+box-shadow: 0 10px 10px 0 rgba(0,0,0,.2);}
+  
+
+header a{text-decoration: none;
+color:white;
+font-weight: 500;}
+
+header img{height:35px;
+width:auto;}
+
+header span{color:white;}
