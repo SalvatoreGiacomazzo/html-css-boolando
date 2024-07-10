@@ -12,7 +12,8 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 box-shadow: 0 10px 10px 0 rgba(0,0,0,.2);
-margin-bottom: 100px;}
+margin-bottom: 100px;
+}
 
 header a{text-decoration: none;
 color:white;
@@ -24,6 +25,20 @@ width:auto;}
 header span{color:white;}
 
 /*Main - Shopping Section*/ 
+.item-container{max-width:1200px;
+margin: 0 auto;
+border: dashed;}
+
+.item-row{display: flex;
+gap: 20px;
+flex-wrap:wrap;}
+
+.item-column{flex-basis: calc(100% /3 - 40px /3);
+border: 2px dashed black;
+min-height:100px;}
+
+main img{display:block;
+max-width:100%}
 
 
 
@@ -36,9 +51,7 @@ header span{color:white;}
 
 
 
-
-
-
-/*Footer*/
+/*Footer
 footer{height: 80px;
 background-color: black;}
+*/ 
