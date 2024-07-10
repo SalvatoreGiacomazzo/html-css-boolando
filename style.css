@@ -24,24 +24,10 @@ width:auto;}
 header span{color:white;}
 
 /*Main - Shopping Section*/ 
- 
-.item-container, .lower-item-container{height: 1200px;
-    width: auto;
-    border: dashed black;
-    }
 
-.item-flex, .lower-item-flex{display: flex;
-    justify-content: space-around;
-}
 
-.item-flex{margin-bottom: 60px;}
 
-.item{height: 500px;
-max-height: 500px;
-border: dashed black;}
 
-div img{height: 100%;
-max-height: 100%;}
 
 
 
