@@ -77,9 +77,11 @@ color: white;
 
 /*Hover elements*/ 
 
+.hover-pic{display:none;}
 
+.item-display:hover .hover-pic{display:block;}
 
-
+.item-display:hover .first-pic{display:none;}
 
 
 /*footer*/
@@ -97,20 +99,3 @@ font-size: 13px;}
 flex-direction: column;}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*Footer
-footer{height: 80px;
-background-color: black;}
-*/ 
